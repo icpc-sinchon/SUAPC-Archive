@@ -1,0 +1,352 @@
+app:
+  description: 입출력 규격만 맞춰 둔 빈 워크플로입니다.
+  icon: 🧩
+  icon_background: '#EEF2F7'
+  icon_type: emoji
+  mode: workflow
+  name: SUAPC Dify 해커톤 입출력 템플릿
+  use_icon_as_answer_icon: false
+dependencies:
+- current_identifier: null
+  type: marketplace
+  value:
+    marketplace_plugin_unique_identifier: langgenius/openrouter:0.1.7@b7042a30570e7c308016cdda45a3b1ee2fa91aa42c8d4a4587b304d769415363
+    version: null
+kind: app
+version: 0.7.0
+workflow:
+  conversation_variables: []
+  environment_variables:
+  - description: 스크립트를 쓰지 않을 때 종료 노드의 script 에 넣는 값입니다.
+    id: nonestring
+    name: nonestring
+    selector:
+    - env
+    - nonestring
+    value: None
+    value_type: string
+  features:
+    file_upload:
+      allowed_file_extensions:
+      - .pdf
+      - .md
+      - .txt
+      - .cpp
+      - .cc
+      allowed_file_types:
+      - document
+      - custom
+      allowed_file_upload_methods:
+      - local_file
+      - remote_url
+      enabled: true
+      image:
+        enabled: false
+        number_limits: 3
+        transfer_methods:
+        - local_file
+        - remote_url
+      number_limits: 3
+    opening_statement: ''
+    retriever_resource:
+      enabled: false
+    sensitive_word_avoidance:
+      enabled: false
+    speech_to_text:
+      enabled: false
+    suggested_questions: []
+    suggested_questions_after_answer:
+      enabled: false
+    text_to_speech:
+      enabled: false
+      language: ''
+      voice: ''
+  graph:
+    edges:
+    - data:
+        isInLoop: false
+        sourceType: start
+        targetType: document-extractor
+      id: start-extract
+      selected: false
+      source: start
+      sourceHandle: source
+      target: extract
+      targetHandle: target
+      type: custom
+      zIndex: 0
+    - data:
+        isInLoop: false
+        sourceType: start
+        targetType: document-extractor
+      id: start-extract_sol
+      selected: false
+      source: start
+      sourceHandle: source
+      target: extract_sol
+      targetHandle: target
+      type: custom
+      zIndex: 0
+    - data:
+        isInLoop: false
+        sourceType: start
+        targetType: document-extractor
+      id: start-extract_chk
+      selected: false
+      source: start
+      sourceHandle: source
+      target: extract_chk
+      targetHandle: target
+      type: custom
+      zIndex: 0
+    - data:
+        isInLoop: false
+        sourceType: document-extractor
+        targetType: llm
+      id: extract-llm
+      selected: false
+      source: extract
+      sourceHandle: source
+      target: llm
+      targetHandle: target
+      type: custom
+      zIndex: 0
+    - data:
+        isInLoop: false
+        sourceType: document-extractor
+        targetType: llm
+      id: extract_sol-llm
+      selected: false
+      source: extract_sol
+      sourceHandle: source
+      target: llm
+      targetHandle: target
+      type: custom
+      zIndex: 0
+    - data:
+        isInLoop: false
+        sourceType: document-extractor
+        targetType: llm
+      id: extract_chk-llm
+      selected: false
+      source: extract_chk
+      sourceHandle: source
+      target: llm
+      targetHandle: target
+      type: custom
+      zIndex: 0
+    - data:
+        isInLoop: false
+        sourceType: llm
+        targetType: end
+      id: llm-end
+      selected: false
+      source: llm
+      sourceHandle: source
+      target: end
+      targetHandle: target
+      type: custom
+      zIndex: 0
+    nodes:
+    - data:
+        desc: 지문 PDF, 정해, 그리고 있을 때만 체커를 받는다
+        selected: false
+        title: 시작
+        type: start
+        variables:
+        - allowed_file_extensions:
+          - .pdf
+          - .md
+          - .txt
+          allowed_file_types:
+          - document
+          - custom
+          allowed_file_upload_methods:
+          - local_file
+          - remote_url
+          label: 문제 지문 (statement.pdf)
+          options: []
+          required: true
+          type: file
+          variable: statement
+        - allowed_file_extensions:
+          - .cpp
+          - .cc
+          - .txt
+          allowed_file_types:
+          - custom
+          allowed_file_upload_methods:
+          - local_file
+          - remote_url
+          label: 정해 (main.cpp)
+          options: []
+          required: true
+          type: file
+          variable: solution
+        - allowed_file_extensions:
+          - .cpp
+          - .cc
+          - .txt
+          allowed_file_types:
+          - custom
+          allowed_file_upload_methods:
+          - local_file
+          - remote_url
+          label: 체커 (chk.cpp, 없을 수 있음)
+          options: []
+          required: false
+          type: file
+          variable: checker
+      height: 163
+      id: start
+      position:
+        x: 40
+        y: 300
+      positionAbsolute:
+        x: 40
+        y: 300
+      type: custom
+      width: 242
+      zIndex: 0
+    - data:
+        desc: PDF에서 본문 추출
+        is_array_file: false
+        selected: false
+        title: 1. 지문 추출
+        type: document-extractor
+        variable_selector:
+        - start
+        - statement
+      height: 132
+      id: extract
+      position:
+        x: 320
+        y: 300
+      positionAbsolute:
+        x: 320
+        y: 300
+      type: custom
+      width: 242
+      zIndex: 0
+    - data:
+        desc: cpp 파일에서 소스 읽기
+        is_array_file: false
+        selected: false
+        title: 1b. 정해 추출
+        type: document-extractor
+        variable_selector:
+        - start
+        - solution
+      height: 100
+      id: extract_sol
+      position:
+        x: 320
+        y: 520
+      positionAbsolute:
+        x: 320
+        y: 520
+      type: custom
+      width: 244
+    - data:
+        desc: gen 은 생성기 소스, script 는 폴리곤 스크립트다
+        outputs:
+        - value_selector:
+          - llm
+          - text
+          variable: gen
+        - value_selector:
+          - env
+          - nonestring
+          variable: script
+        selected: false
+        title: 종료
+        type: end
+      height: 88
+      id: end
+      position:
+        x: 2280
+        y: 300
+      positionAbsolute:
+        x: 2280
+        y: 300
+      type: custom
+      width: 242
+      zIndex: 0
+    - data:
+        desc: 체커가 올 때만 내용이 있다
+        is_array_file: false
+        selected: false
+        title: 1c. 체커 추출
+        type: document-extractor
+        variable_selector:
+        - start
+        - checker
+      height: 100
+      id: extract_chk
+      position:
+        x: 320
+        y: 700
+      positionAbsolute:
+        x: 320
+        y: 700
+      type: custom
+      width: 244
+    - data:
+        context:
+          enabled: false
+          variable_selector: []
+        desc: 기본값은 OpenRouter 의 무료 모델입니다. 원하는 모델로 바꾸세요
+        memory: null
+        model:
+          completion_params: {}
+          mode: chat
+          name: google/gemini-3.7-flash
+          provider: langgenius/openrouter/openrouter
+        prompt_template:
+        - id: sys-1
+          role: system
+          text: '당신은 경쟁적 프로그래밍 문제의 테스트케이스 생성기를 작성합니다.
+
+            설명 없이 C++ 소스 코드만 출력합니다.'
+        - id: usr-1
+          role: user
+          text: '아래 문제의 약한 풀이를 잡아내는 테스트케이스 생성기를 작성하세요.
+
+            한 번 실행하면 같은 폴더에 1.in 부터 차례로 30개 이하의 파일을 남겨야 합니다.
+
+
+            [문제 지문]
+
+            {{#extract.text#}}
+
+
+            [정해]
+
+            {{#extract_sol.text#}}
+
+
+            [체커: 비어 있으면 이 문제는 표준 채점입니다]
+
+            {{#extract_chk.text#}}'
+        selected: false
+        structured_output_enabled: false
+        title: 예시 모델 노드
+        type: llm
+        vision:
+          enabled: false
+      height: 98
+      id: llm
+      position:
+        x: 900
+        y: 380
+      positionAbsolute:
+        x: 900
+        y: 380
+      selected: false
+      type: custom
+      width: 244
+    viewport:
+      x: 0
+      y: 100.00000000000001
+      zoom: 0.6
+  rag_pipeline_variables: []
