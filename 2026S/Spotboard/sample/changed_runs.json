@@ -1,0 +1,10 @@
+{
+    "time": {
+        "contestTime" : 18900,
+        "noMoreUpdate" : true,
+        "timestamp" : 2222
+    },
+    "runs" : [
+        { "id": 1500, "problem": 0, "result": "No - Just a Test", "team": 56, "submissionTime": "310" }
+    ]
+}
