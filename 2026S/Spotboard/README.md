@@ -2,7 +2,7 @@
 
 Static, unfrozen Spotboard archive for the main contest (`dj-3`). When GitHub Pages is enabled from the `main` branch and repository root, it is available at:
 
-<https://icpc-sinchon.github.io/SUAPC-Archive/2026S/Spotboard/>
+<https://archive.icpc-sinchon.io/2026S/Spotboard/>
 
 This Pages site contains only the public scoreboard application and its contest/run data. It does not contain DOMjudge credentials, submission source code, raw submission metadata, judgement metadata, or AWS configuration.
 
