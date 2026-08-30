@@ -1,0 +1,292 @@
+[
+  {
+    "problem_id": 1,
+    "problem_label": "A",
+    "problem_name": "수앞C",
+    "official_first_solve": {
+      "submission_id": 308,
+      "team_id": 13,
+      "team_name": "Don't Die Yet",
+      "affiliation": "서강대학교",
+      "contest_seconds": 129.749,
+      "scoreboard_minute": 2.0,
+      "time_hms": "00:02:09"
+    },
+    "open_onsite_first_solve": {
+      "submission_id": 301,
+      "team_id": 32,
+      "team_name": "네! 다음은 재밌고 신박한 팀명의 목록입니다.",
+      "affiliation": "비공식 참가팀",
+      "contest_seconds": 93.696,
+      "scoreboard_minute": 1.0,
+      "time_hms": "00:01:33"
+    }
+  },
+  {
+    "problem_id": 2,
+    "problem_label": "B",
+    "problem_name": "분탕의 신 안녕원",
+    "official_first_solve": null,
+    "open_onsite_first_solve": {
+      "submission_id": 553,
+      "team_id": 34,
+      "team_name": "MIKUDAYO",
+      "affiliation": "비공식 참가팀",
+      "contest_seconds": 9089.912,
+      "scoreboard_minute": 151.0,
+      "time_hms": "02:31:29"
+    }
+  },
+  {
+    "problem_id": 3,
+    "problem_label": "C",
+    "problem_name": "공 넣기",
+    "official_first_solve": {
+      "submission_id": 359,
+      "team_id": 18,
+      "team_name": "수아가 만든 컴퓨터는 수아피씨",
+      "affiliation": "학교 혼합 팀",
+      "contest_seconds": 913.022,
+      "scoreboard_minute": 15.0,
+      "time_hms": "00:15:13"
+    },
+    "open_onsite_first_solve": {
+      "submission_id": 357,
+      "team_id": 33,
+      "team_name": "intiger",
+      "affiliation": "비공식 참가팀",
+      "contest_seconds": 833.46,
+      "scoreboard_minute": 13.0,
+      "time_hms": "00:13:53"
+    }
+  },
+  {
+    "problem_id": 4,
+    "problem_label": "D",
+    "problem_name": "Regulating Bracket Sequence",
+    "official_first_solve": null,
+    "open_onsite_first_solve": {
+      "submission_id": 722,
+      "team_id": 22,
+      "team_name": "1 MiB",
+      "affiliation": "비공식 참가팀",
+      "contest_seconds": 17050.055,
+      "scoreboard_minute": 284.0,
+      "time_hms": "04:44:10"
+    }
+  },
+  {
+    "problem_id": 5,
+    "problem_label": "E",
+    "problem_name": "K분 그래프 3",
+    "official_first_solve": {
+      "submission_id": 744,
+      "team_id": 14,
+      "team_name": "中國人",
+      "affiliation": "연세대학교",
+      "contest_seconds": 17460.195,
+      "scoreboard_minute": 291.0,
+      "time_hms": "04:51:00"
+    },
+    "open_onsite_first_solve": {
+      "submission_id": 635,
+      "team_id": 33,
+      "team_name": "intiger",
+      "affiliation": "비공식 참가팀",
+      "contest_seconds": 12778.543,
+      "scoreboard_minute": 212.0,
+      "time_hms": "03:32:58"
+    }
+  },
+  {
+    "problem_id": 6,
+    "problem_label": "F",
+    "problem_name": "122333",
+    "official_first_solve": {
+      "submission_id": 343,
+      "team_id": 14,
+      "team_name": "中國人",
+      "affiliation": "연세대학교",
+      "contest_seconds": 510.128,
+      "scoreboard_minute": 8.0,
+      "time_hms": "00:08:30"
+    },
+    "open_onsite_first_solve": {
+      "submission_id": 336,
+      "team_id": 26,
+      "team_name": "Credits EXPERT",
+      "affiliation": "비공식 참가팀",
+      "contest_seconds": 410.014,
+      "scoreboard_minute": 6.0,
+      "time_hms": "00:06:50"
+    }
+  },
+  {
+    "problem_id": 7,
+    "problem_label": "G",
+    "problem_name": "쌀 가져가기와 쿼리",
+    "official_first_solve": {
+      "submission_id": 633,
+      "team_id": 14,
+      "team_name": "中國人",
+      "affiliation": "연세대학교",
+      "contest_seconds": 12738.062,
+      "scoreboard_minute": 212.0,
+      "time_hms": "03:32:18"
+    },
+    "open_onsite_first_solve": {
+      "submission_id": 700,
+      "team_id": 33,
+      "team_name": "intiger",
+      "affiliation": "비공식 참가팀",
+      "contest_seconds": 16187.344,
+      "scoreboard_minute": 269.0,
+      "time_hms": "04:29:47"
+    }
+  },
+  {
+    "problem_id": 8,
+    "problem_label": "H",
+    "problem_name": "README",
+    "official_first_solve": {
+      "submission_id": 374,
+      "team_id": 12,
+      "team_name": "NJG",
+      "affiliation": "한양대학교",
+      "contest_seconds": 1258.381,
+      "scoreboard_minute": 20.0,
+      "time_hms": "00:20:58"
+    },
+    "open_onsite_first_solve": {
+      "submission_id": 389,
+      "team_id": 33,
+      "team_name": "intiger",
+      "affiliation": "비공식 참가팀",
+      "contest_seconds": 1757.523,
+      "scoreboard_minute": 29.0,
+      "time_hms": "00:29:17"
+    }
+  },
+  {
+    "problem_id": 9,
+    "problem_label": "I",
+    "problem_name": "책 정렬",
+    "official_first_solve": {
+      "submission_id": 515,
+      "team_id": 14,
+      "team_name": "中國人",
+      "affiliation": "연세대학교",
+      "contest_seconds": 6391.289,
+      "scoreboard_minute": 106.0,
+      "time_hms": "01:46:31"
+    },
+    "open_onsite_first_solve": {
+      "submission_id": 557,
+      "team_id": 33,
+      "team_name": "intiger",
+      "affiliation": "비공식 참가팀",
+      "contest_seconds": 9307.252,
+      "scoreboard_minute": 155.0,
+      "time_hms": "02:35:07"
+    }
+  },
+  {
+    "problem_id": 10,
+    "problem_label": "J",
+    "problem_name": "트리 뽑아내기",
+    "official_first_solve": {
+      "submission_id": 521,
+      "team_id": 11,
+      "team_name": "temporary_teamname",
+      "affiliation": "연세대학교",
+      "contest_seconds": 6931.327,
+      "scoreboard_minute": 115.0,
+      "time_hms": "01:55:31"
+    },
+    "open_onsite_first_solve": {
+      "submission_id": 460,
+      "team_id": 33,
+      "team_name": "intiger",
+      "affiliation": "비공식 참가팀",
+      "contest_seconds": 4057.656,
+      "scoreboard_minute": 67.0,
+      "time_hms": "01:07:37"
+    }
+  },
+  {
+    "problem_id": 11,
+    "problem_label": "K",
+    "problem_name": "술 푸는 사람",
+    "official_first_solve": {
+      "submission_id": 540,
+      "team_id": 17,
+      "team_name": "찬우없는방",
+      "affiliation": "한양대학교",
+      "contest_seconds": 8299.333,
+      "scoreboard_minute": 138.0,
+      "time_hms": "02:18:19"
+    },
+    "open_onsite_first_solve": {
+      "submission_id": 564,
+      "team_id": 32,
+      "team_name": "네! 다음은 재밌고 신박한 팀명의 목록입니다.",
+      "affiliation": "비공식 참가팀",
+      "contest_seconds": 9633.424,
+      "scoreboard_minute": 160.0,
+      "time_hms": "02:40:33"
+    }
+  },
+  {
+    "problem_id": 12,
+    "problem_label": "L",
+    "problem_name": "정투상도",
+    "official_first_solve": {
+      "submission_id": 418,
+      "team_id": 14,
+      "team_name": "中國人",
+      "affiliation": "연세대학교",
+      "contest_seconds": 2688.086,
+      "scoreboard_minute": 44.0,
+      "time_hms": "00:44:48"
+    },
+    "open_onsite_first_solve": {
+      "submission_id": 378,
+      "team_id": 33,
+      "team_name": "intiger",
+      "affiliation": "비공식 참가팀",
+      "contest_seconds": 1402.141,
+      "scoreboard_minute": 23.0,
+      "time_hms": "00:23:22"
+    }
+  },
+  {
+    "problem_id": 13,
+    "problem_label": "M",
+    "problem_name": "쌀 재배하기와 쿼리",
+    "official_first_solve": {
+      "submission_id": 504,
+      "team_id": 11,
+      "team_name": "temporary_teamname",
+      "affiliation": "연세대학교",
+      "contest_seconds": 5680.049,
+      "scoreboard_minute": 94.0,
+      "time_hms": "01:34:40"
+    },
+    "open_onsite_first_solve": {
+      "submission_id": 518,
+      "team_id": 33,
+      "team_name": "intiger",
+      "affiliation": "비공식 참가팀",
+      "contest_seconds": 6662.705,
+      "scoreboard_minute": 111.0,
+      "time_hms": "01:51:02"
+    }
+  },
+  {
+    "problem_id": 14,
+    "problem_label": "N",
+    "problem_name": "매직 쌀 2",
+    "official_first_solve": null,
+    "open_onsite_first_solve": null
+  }
+]

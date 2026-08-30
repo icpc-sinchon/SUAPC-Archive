@@ -1,0 +1,218 @@
+{
+    "title": "신촌지역 대학생 프로그래밍 동아리 연합 여름 대회 | SUAPC 2026 Summer",
+    "systemName": "DOMjudge",
+    "systemVersion": "",
+    "problems": [
+        {
+            "id": 1,
+            "title": "수앞C",
+            "name": "A",
+            "color": ""
+        },
+        {
+            "id": 2,
+            "title": "분탕의 신 안녕원",
+            "name": "B",
+            "color": ""
+        },
+        {
+            "id": 3,
+            "title": "공 넣기",
+            "name": "C",
+            "color": ""
+        },
+        {
+            "id": 4,
+            "title": "Regulating Bracket Sequence",
+            "name": "D",
+            "color": ""
+        },
+        {
+            "id": 5,
+            "title": "K분 그래프 3",
+            "name": "E",
+            "color": ""
+        },
+        {
+            "id": 6,
+            "title": "122333",
+            "name": "F",
+            "color": ""
+        },
+        {
+            "id": 7,
+            "title": "쌀 가져가기와 쿼리",
+            "name": "G",
+            "color": ""
+        },
+        {
+            "id": 8,
+            "title": "README",
+            "name": "H",
+            "color": ""
+        },
+        {
+            "id": 9,
+            "title": "책 정렬",
+            "name": "I",
+            "color": ""
+        },
+        {
+            "id": 10,
+            "title": "트리 뽑아내기",
+            "name": "J",
+            "color": ""
+        },
+        {
+            "id": 11,
+            "title": "술 푸는 사람",
+            "name": "K",
+            "color": ""
+        },
+        {
+            "id": 12,
+            "title": "정투상도",
+            "name": "L",
+            "color": ""
+        },
+        {
+            "id": 13,
+            "title": "쌀 재배하기와 쿼리",
+            "name": "M",
+            "color": ""
+        },
+        {
+            "id": 14,
+            "title": "매직 쌀 2",
+            "name": "N",
+            "color": ""
+        }
+    ],
+    "teams": [
+        {
+            "id": 11,
+            "name": "temporary_teamname",
+            "group": "연세대학교"
+        },
+        {
+            "id": 12,
+            "name": "NJG",
+            "group": "한양대학교"
+        },
+        {
+            "id": 13,
+            "name": "Don't Die Yet",
+            "group": "서강대학교"
+        },
+        {
+            "id": 14,
+            "name": "中國人",
+            "group": "연세대학교"
+        },
+        {
+            "id": 15,
+            "name": "쉔디의 마지막 불꽃",
+            "group": "서강대학교"
+        },
+        {
+            "id": 16,
+            "name": "백준좀풀걸",
+            "group": "연세대학교"
+        },
+        {
+            "id": 17,
+            "name": "찬우없는방",
+            "group": "한양대학교"
+        },
+        {
+            "id": 18,
+            "name": "수아가 만든 컴퓨터는 수아피씨",
+            "group": "학교 혼합 팀"
+        },
+        {
+            "id": 19,
+            "name": "홍대멘헤라공원",
+            "group": "학교 혼합 팀"
+        },
+        {
+            "id": 20,
+            "name": "Nadori Fan Club",
+            "group": "홍익대학교"
+        },
+        {
+            "id": 21,
+            "name": "코드앤캔버스",
+            "group": "연세대학교"
+        },
+        {
+            "id": 22,
+            "name": "1 MiB",
+            "group": "비공식 참가팀"
+        },
+        {
+            "id": 23,
+            "name": "멀티버스를 여행하는",
+            "group": "비공식 참가팀"
+        },
+        {
+            "id": 24,
+            "name": "Kokiri is cute",
+            "group": "비공식 참가팀"
+        },
+        {
+            "id": 25,
+            "name": "디장",
+            "group": "비공식 참가팀"
+        },
+        {
+            "id": 26,
+            "name": "Credits EXPERT",
+            "group": "비공식 참가팀"
+        },
+        {
+            "id": 27,
+            "name": "따잇",
+            "group": "비공식 참가팀"
+        },
+        {
+            "id": 28,
+            "name": "🎁대회 상품",
+            "group": "비공식 참가팀"
+        },
+        {
+            "id": 29,
+            "name": "ThatOnePythonUser",
+            "group": "비공식 참가팀"
+        },
+        {
+            "id": 30,
+            "name": "＼(・ω・＼)SAN치! (／・ω・)／핀치",
+            "group": "비공식 참가팀"
+        },
+        {
+            "id": 31,
+            "name": "광운대복지관엘베설치기원디미고에어컨시원하게해주세요선린고매점카페인입고좀요",
+            "group": "비공식 참가팀"
+        },
+        {
+            "id": 32,
+            "name": "네! 다음은 재밌고 신박한 팀명의 목록입니다.",
+            "group": "비공식 참가팀"
+        },
+        {
+            "id": 33,
+            "name": "intiger",
+            "group": "비공식 참가팀"
+        },
+        {
+            "id": 34,
+            "name": "MIKUDAYO",
+            "group": "비공식 참가팀"
+        },
+        {
+            "id": 35,
+            "name": "파이썬워리어즈",
+            "group": "비공식 참가팀"
+        }
+    ]
+}
